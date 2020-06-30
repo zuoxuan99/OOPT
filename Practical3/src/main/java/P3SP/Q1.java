@@ -13,19 +13,20 @@ public class Q1 {
             System.out.println("Please enter the Quantity of bank note(RM" + denomination[x] + "): ");
             quantity[x] = scan.nextInt();
         }
-        int total = calculateValue(denomination,quantity,value);
+        int total = calculateValue(denomination, quantity, value);
         System.out.println("------------------------------------------------------------------------");
         System.out.println("Denomination(RM)          Quantity           Value (RM)");
         for (int x = 0; x < denomination.length; x++) {
             if (quantity[x] > 0) {
-                System.out.printf("%15d%18d%22d\n", denomination[x], quantity[x],value[x]);
+                System.out.printf("%15d%18d%22d\n", denomination[x], quantity[x], value[x]);
             }
         }
-        System.out.println("Total = RM "+ total);
+        System.out.println("Total = RM " + total);
     }
-    public static int calculateValue(int denomination[],int quantity[],int value[]) {
+
+    public static int calculateValue(int denomination[], int quantity[], int value[]) {
         int total = 0;
-        for(int x = 0;x< denomination.length;x++) {
+        for (int x = 0; x < denomination.length; x++) {
             value[x] = denomination[x] * quantity[x];
             total += value[x];
         }
