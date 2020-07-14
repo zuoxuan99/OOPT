@@ -1,4 +1,4 @@
-
+// Self Practice
 package P2SP;
 
 public class Average {

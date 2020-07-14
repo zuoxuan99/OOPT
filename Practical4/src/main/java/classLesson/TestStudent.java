@@ -18,10 +18,9 @@ public class TestStudent {
         System.out.println("Student 2");
         System.out.println("Name : " + s2.getName());
         System.out.println("GPA : " + s2.getGPA() + "\n");
-        
+
         System.out.println("Student 3");
         System.out.println("Name : " + s3.getName());
         System.out.println("GPA : " + s3.getGPA());
-
     }
 }

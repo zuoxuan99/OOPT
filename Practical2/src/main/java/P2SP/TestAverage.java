@@ -1,3 +1,4 @@
+// Self Practice
 package P2SP;
 
 public class TestAverage {
