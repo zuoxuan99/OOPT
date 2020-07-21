@@ -65,7 +65,7 @@ public class Course {
 
     public String toString() {
         return "Course Title : " + courseTitle + "\n"
-                + "Fees Per Student RM: " + feesPerStudent + "\n"
+                + "Fees Per Student : RM " + feesPerStudent + "\n"
                 + "Number Of Student : " + noOfStudents + "\n"
                 + "Total Course : " + courseCount + "\n";
     }

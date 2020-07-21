@@ -13,7 +13,7 @@ public class AlphaCollege {
 
         System.out.println(course1.toString());
 
-        System.out.printf("Total Fees Collected : RM %.2f\n", course1.calFeesCollected());
+        System.out.printf("Total Fees Collected : RM %.2f\n\n", course1.calFeesCollected());
 
         System.out.println("Enrolled Student: ");
         for (int x = 0; x < course1.getNoOfStudents(); x++) {
